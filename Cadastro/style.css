@@ -1,0 +1,18 @@
+:root {
+    --cor0: #41D9D9;
+    --cor1: #00D9D9;
+    --cor2: #309F9F;
+    --cor3: #008B8B;
+    --cor4: #005959;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 1em, normal, Arial, Helvetica, sans-serif;
+    background-color: var(--cor0);
+}
