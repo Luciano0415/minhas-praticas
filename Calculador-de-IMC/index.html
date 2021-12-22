@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculando IMC do corpo</h1>
+        <p><strong>IMC</strong>, é um cálculo simples que permite medir se alguém está ou não com o peso ideal.</p>
+    </header>
+
+    <section>
+        <p>
+            Nome:
+            <input type="text" id="nome">
+        </p>
+        <p>
+            Peso (Kg):
+            <input type="number" id="peso">
+        </p>
+        <p>
+            Altura: (m)
+            <input type="number" id="altura">
+        </p>
+        <input type="button" value="VERIFICAR" onclick="verificar()" id="btn">
+        <div id="res">
+            IMC...
+        </div>
+    </section>
+
+    <footer>
+        <p>Criado por Gabriel Luciano</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

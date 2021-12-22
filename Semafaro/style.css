@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: normal 1em Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+    margin: 25px 0px;
+}
+
+img {
+    width: 150px;
+    height: 350px;
+}
+
+div.btns button {
+    padding: 8px;
+    margin: 10px 5px;
+}
+
+div.btns > #btn-verde:hover {
+    background-color: green;
+    color: black;
+    border: 2px solid #003100;
+}
+div.btns > #btn-amarelo:hover {
+    background-color: yellow;
+    color: black;
+    border: 2px solid #7e7e00;
+}
+div.btns > #btn-vermelho:hover {
+    background-color: red;
+    color: black;
+    border: 2px solid #8b0000;
+}
+div.btns > #btn-desligar:hover {
+    background-color: gray;
+    color: black;
+    border: 2px solid #464646;
+}
+
+div#texto {
+    margin: 15px 0px;
+    font-size: 1.2em;
+}
+
+p {
+    color: darkblue;
+    font-style: italic;
+    margin-top: 20px;
+    font-size: 1.5em;
+}

@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+    background-color: #1C09B3;
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+header > h1 {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.603);
+}
+
+img {
+    height: 200px;
+    border-radius: 50px;
+    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.568);
+    display: block;
+    margin: auto;
+}
+
+section {
+    background-color: #290DFF;
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.384);
+}
+
+input#btn {
+    padding: 8px 15px;
+}
+
+div {
+    padding: 15px 0px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

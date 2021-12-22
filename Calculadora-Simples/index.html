@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora Simples Web</h1>
+        <p>Essa é uma calculadora simples, porem funciona!</p>
+    </header>
+
+    <div id="calculadora">
+        <div>
+            <p>
+                Primeiro Número:
+                <input type="number" id="primeiroNumero">
+                <input type="button" value="Limpar" onclick="limpar1()">
+            </p>
+            <p>
+                Segundo Número:
+                <input type="number" id="segundoNumero">
+                <input type="button" value="Limpar" onclick="limpar2()">
+            </p>
+
+            <input type="button" value="+" class="btn-operador" onclick="soma()">
+            <input type="button" value="-" class="btn-operador" onclick="subtrair()">
+            <input type="button" value="*" class="btn-operador" onclick="multiplicar()">
+            <input type="button" value="/" class="btn-operador" onclick="dividir()">
+
+            <div id="res"></div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>Criado por Gabriel Luciano</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

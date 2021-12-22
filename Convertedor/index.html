@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Money e Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- convertor de moedas -->
+    <div class="container container1">
+        <h1 class="page-title">
+          CONVERSOR DE MOEDAS
+        </h1>
+        <p class="page-subtitle">
+          Descubra os valores em Dolar U$ ou em Euro €$
+        </p>
+        <label for="moeda">Insira o valor</label><br>
+        <input type="number" id="valor" size="2" /><br>
+        <button type="submit" onclick="ConverterDolar()">Converter para Dolar</button>
+        <button type="submit" onclick="ConverterEuro()">Converter para Euro</button>
+        <h2 id="valorConvertido1"></h2>
+      </div>
+
+  <!-- convertor de temperatura -->
+      <div class="container container2">
+        <h1 class="page-title">
+          CONVERSOR DE TEMPERATURA
+        </h1>
+        <p class="page-subtitle">
+          Descubra a temperatura em Fahrenheit(F) ou em Kelvin(K)
+        </p>
+        <label for="temperatura">Insira a temperatura em Celsius(C°)</label><br>
+        <input type="number" id="temperatura" size="2" /><br>
+        <button type="submit" onclick="ConverterTemperaturaF()">Converter Temperatura (F)</button>
+        <button type="submit" onclick="ConverterTemperaturaK()">Converter Temperatura (K)</button>
+        <h2 id="valorConvertido2"></h2>
+        <p id="temp"></p>
+      </div>
+
+        <script src="main.js"></script>
+</body>
+</html>

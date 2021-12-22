@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costumizando seu Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="cabecalho" class="corJuncao">
+        <div class="elementos">
+            Cor de fundo:
+            <input type="text" id="corFundo">
+            Cor dos paragrafos:
+            <input type="text" id="corTexto">
+            Cor do Titulo
+            <input type="text" id="corTitulo">
+            Cor do Sub-Titulo
+            <input type="text" id="corSubTitulo">
+        </div>
+        
+        <div class="elementos">
+            Cor Fundo do Header:
+            <input type="text" id="corHeader">
+            Cor Texto do Header:
+            <input type="text" id="corTextoHeader">
+            Cor da caixa:
+            <input type="text" id="corCaixa">
+        </div>
+
+        <button onclick="aplicar()" id="btn">APLICAR</button>
+    </header>
+
+    <div id="container">
+        <h1 id="titulo">Título</h1>
+        <h2 id="subTitulo">Sub-Título</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel incidunt quisquam consequuntur repellat voluptatibus placeat aliquid quo recusandae quibusdam. Iste exercitationem, labore laboriosam illo quos molestiae impedit unde placeat aspernatur.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel incidunt quisquam consequuntur repellat voluptatibus placeat aliquid quo recusandae quibusdam. Iste exercitationem, labore laboriosam illo quos molestiae impedit unde placeat aspernatur.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel incidunt quisquam consequuntur repellat voluptatibus placeat aliquid quo recusandae quibusdam. Iste exercitationem, labore laboriosam illo quos molestiae impedit unde placeat aspernatur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat fuga inventore, accusantium harum animi ratione, beatae, vitae unde eos iure autem laudantium maiores voluptatem necessitatibus quia distinctio ad quas illum!</p>
+
+        <footer class="corJuncao">
+            <p>Criado por Gabriel Luciano</p>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

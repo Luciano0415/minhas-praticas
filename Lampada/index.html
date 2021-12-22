@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lâmpada Online</title>
+    <link rel="shortcut icon" href="img/icon-lamp.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Projeto Lâmpada</h1>
+        <p>Você pode acender e apagar a lâmpada, mais cuidado! Você pode quebrá-la</p>
+    </header>
+
+    <div id="lampada">
+        <img src="img/desligada.jpg" alt="lâmpada" onclick="quebrar()">
+    </div>
+    <div>
+        <button class="btn" id="btnUm" type="button" onclick="ligar()">Ligar</button>
+        <button class="btn" id="btnDois" type="button" onclick="desligar()">Desligar</button>
+    </div>
+    <div id="txt"></div>
+
+    <footer>
+        <p>Criado por Gabriel Lima</p>
+    </footer>
+
+    <script src="lampada.js"></script>
+</body>
+</html>
