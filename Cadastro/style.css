@@ -1,9 +1,9 @@
 :root {
-    --cor0: #41D9D9;
-    --cor1: #00D9D9;
-    --cor2: #309F9F;
-    --cor3: #008B8B;
-    --cor4: #005959;
+    --cor1: #41D9D9;
+    --cor2: #00D9D9;
+    --cor3: #309F9F;
+    --cor4: #008B8B;
+    --cor5: #005959;
 }
 
 * {
@@ -13,6 +13,22 @@
 }
 
 body {
-    font: 1em, normal, Arial, Helvetica, sans-serif;
-    background-color: var(--cor0);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor1);
+}
+
+main {
+    background-color: var(--cor3);
+    color: white;
+    margin: 30px auto;
+    width: 600px;
+    height: 550px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.596);
+}
+main > form {
+    padding: 25px;
+}
+main > form > h1 {
+    text-align: center;
 }

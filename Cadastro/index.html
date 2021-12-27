@@ -8,6 +8,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <h1 style="text-align: center; margin-top: 25px;">não finalizado!!!</h1>
+        <!-- <h1 style="text-align: center; margin-top: 25px;">não finalizado!!!</h1> -->
+        <main>
+            <form>
+                <h1>Faça seu Cadastro:</h1>
+                <p>
+                    <label>Nome:</label>
+                    <input type="text" id="nome" placeholder="digite seu nome...">
+                    <label>Email:</label>
+                    <input type="email" placeholder="digite seu email...">
+                </p>
+                <p>
+                    <label>RG:</label>
+                    <input type="number" placeholder="digite seu RG...">
+                    <label>CPF:</label>
+                    <input type="number" placeholder="digite seu CPF...">
+                </p>
+                <p>
+                    <input type="radio" id="mas" name="sexo" value="masculino" checked>
+                    <label for="mas">Masculino</label>
+                    <input type="radio" id="fem" name="sexo" value="feminino">
+                    <label for="fem">Feminino</label>
+                </p>
+                <p>
+                    <label>Senha:</label>
+                    <input type="password" id="senha" placeholder="crie uma senha">
+                    <label>Confirme a Senha:</label>
+                    <input type="password" id="conf-senha" placeholder="confirme sua senha">
+                </p>
+                <input type="button" value="Cadastrar" id="btn-cadastro" onclick="cadastrar()">
+            </form>
+        </main>
 </body>
 </html>
