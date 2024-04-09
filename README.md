@@ -1,6 +1,6 @@
 # Minhas Práticas
- Minhas praticas com HTML, CSS e JavaScript...
 
+ **Minhas praticas com HTML, CSS e JavaScript**
 
 ## Acesse minhas praticas nos links aqui abaixo:
 
